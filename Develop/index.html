@@ -27,70 +27,77 @@
         </nav>
     </header>
 
-    <!-- Add semantic HTML and alt attribute rather thand div -->
+    <!-- Add semantic HTML and alt attribute rather than div-->
     <section>
         <img src="../Develop/assets/images/digital-marketing-meeting.jpg" alt="*****ADD******" class="hero"></a>
     </section>
 
+    <!-- Main section including the 3 cards and side information -->
     <main>
-
-        <div class="content">
-            <div class="search-engine-optimization">
+        <!-- added services class due to all individual cards havign the same styling -->
+        <section class="services">
+            <!-- added id so that navigation bar links to correct section as well as alt attributes-->
+            <div id="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" alt="A photo looking down on to a desk with a notebook, coffee, pens and a laptop" class="float-left" />
                 <h2>Search Engine Optimization</h2>
+                <!-- make paragraph code lines shorter so that they are easily readable -->
                 <p>
-                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home.  
+                    Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
                 </p>
-            </div>
-            <div id="online-reputation-management" class="online-reputation-management">
-                <img src="./assets/images/online-reputation-management.jpg" alt="A laptop with various charts representing an improvement in reputation"class="float-right" />
+            </div> 
+            <div id="online-reputation-management">
+                <img src="./assets/images/online-reputation-management.jpg" alt="A laptop with various charts representing an improvement in reputation"class="float-right"/>
                 <h2>Online Reputation Management</h2>
-                <p>
-                    The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+                <p>TThe web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want 
+                    about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
                 </p>
-            </div>
-            <div id="social-media-marketing" class="social-media-marketing">
-                <img src="./assets/images/social-media-marketing.jpg" alt = "A conference desk with several laptops and various graphics of social media-related terms and icons" class="float-left" />
+            </div> 
+            <div id="social-media-marketing">
+                <img src="./assets/images/social-media-marketing.jpg" alt="A conference desk with several laptops and various graphics of social media-related terms and icons" class="float-left" />
                 <h2>Social Media Marketing</h2>
                 <p>
-                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, 
+                    using analytics to find the right markets and increase your lead generation.
                 </p>
-            </div>
-        </div>
-        <div class="benefits">
-            <div class="benefit-lead">
+            </div> 
+        </section>
+        
+        <!-- created section for benefits and removed individual card classes as they all have the same styling -->
+        <section class="benefits"> 
+            <!-- Kept div in so that it is more organized  -->
+            <div>
+                <!-- Add in alt attributes -->
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="A gear flowing into a funnel that comes out as a coin with a dollar sign on it"/>
                 <p>
                     Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                 </p>
             </div>
-            <div class="benefit-brand">
+            <div>
                 <h3>Brand Awareness</h3>
-                <img src="./assets/images/brand-awareness.png" alt="A torso in a suit with a light bulb head/>
+                <img src="./assets/images/brand-awareness.png" alt="A torso in a suit with a light bulb head"/>
                 <p>
                     Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                 </p>
             </div>
-            <div class="benefit-cost">
+            <div>
                 <h3>Cost Management</h3>
                 <img src="./assets/images/cost-management.png" alt="A gear behind 3 coins with the dollar sign on them"/>
                 <p>
                     As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
                 </p>
             </div>
-        </div>
-    </main>
-
-    <footer>    
-        <div class="footer">
-            <h4>Made with ❤️️ by Horiseon</h2>
-             <p>
-            &copy; 2019 Horiseon Social Solution Services, Inc.
-             </p>
-        </div> 
-    </footer>
-
-</body>
-
+        </section>
+      </main>
+    <!-- Add semantic element footer rather than class .footer -->
+      <footer>
+          <!-- update header to be in descending size order -->
+          <h4>Made with ❤️️ by Horiseon</h2>
+            <p>
+                &copy; 2019 Horiseon Social Solution Services, Inc.
+            </p>
+        </footer>
+    </body>
 </html>
+    
